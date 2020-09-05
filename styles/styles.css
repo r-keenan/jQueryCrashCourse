@@ -24,3 +24,14 @@ header{
     margin: auto;
     padding: 10px;
 }
+
+h1{
+    text-align: center;
+}
+
+#list {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:30%;
+}
