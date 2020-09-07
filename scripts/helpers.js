@@ -33,3 +33,10 @@
 
 //Use to "*" to select everything
 //$('*').hide();
+
+//click event for button 1
+$(document).ready(function () {
+    $('#btn1').click(function () {
+        alert('Button Clicked!');
+    });
+});
