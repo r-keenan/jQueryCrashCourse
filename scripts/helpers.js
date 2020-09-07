@@ -5,7 +5,7 @@
 //$('.heading2').hide();
 
 //gives color to span elements that are within a p tag
-$('p span').css('color', 'red');
+//$('p span').css('color', 'red');
 
 //Highilight the first item in the list
 //$('ul#list li:first').css('color', 'orange');
@@ -14,8 +14,8 @@ $('p span').css('color', 'red');
 //$('ul#list li:last').css('color', 'blue');
 
 //Even numbers have specified font and background color
-$('ul#list li:even').css('color', '#FF00FF');
-$('ul#list li:even').css('background-color', '#000000');
+//$('ul#list li:even').css('color', '#FF00FF');
+//$('ul#list li:even').css('background-color', '#000000');
 
 //Odd numbers have specified font and background color
 $('ul#list li:odd').css('color', '#9400D3');
