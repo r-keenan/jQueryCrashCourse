@@ -18,8 +18,8 @@
 //$('ul#list li:even').css('background-color', '#000000');
 
 //Odd numbers have specified font and background color
-$('ul#list li:odd').css('color', '#9400D3');
-$('ul#list li:odd').css('background-color', '#2F4F4F');
+//$('ul#list li:odd').css('color', '#9400D3');
+//$('ul#list li:odd').css('background-color', '#2F4F4F');
 
 //hides based on type of element
 //$(':button').hide();
