@@ -125,7 +125,41 @@ $('#form').submit(function () {
 });
 
 //######Part 3: DOM Manipulation #######/
-
+$(document).ready(() => {
+    //$('p.para1').css('color', 'red');
+    //wrap this css properties in an object if specifying multiple properties
+    //$('p.para1').css({ color: 'red', background: '#ccc' });
+    //This assigns para2 as myClass and adds the myClass CSS styling to the element
+    //$('p.para2').addClass('myClass');
+    //This removes the same class
+    //$('p.para2').removeClass('myClass');
+    //Toggle class
+    /*$('#btn1').click(() => {
+        $('p.para2').toggleClass('myClass');
+    });*/
+    //output text to the myDiv ID
+    //$('#myDiv').text('Hello World!');
+    //Sets value and tag and inserts it into the myDiv ID
+    //$('#myDiv').html('<h3>Hello World</h3>');
+    //Alerts the text from the myDiv ID
+    //alert($('#myDiv').text());
+    //Adds item to the end of the list
+    $('ul').append('<li>Append List Item</li>');
+    //Adds item to the beginnig of the list
+    $('ul').prepend('<li>Prepended List Item</li>');
+    //append para1 to para2
+    $('.para1').appendTo('.para2');
+    //prepends para1 to para2
+    $('.para1').prependTo('.para2');
+    //Hello before the unordered list
+    $('ul').before('<h4>Hello</h4>');
+    //World after the unordered list
+    $('ul').after('<h4>World</h4>');
+    //removes all of the inner elements of the tag specified
+    //$('ul').empty();
+    //detaches it from the DOM
+    //$('ul').detach();
+});
 
 
 

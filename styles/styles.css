@@ -35,3 +35,8 @@ h1{
     text-align: center;
     width:30%;
 }
+
+.myClass {
+    color: blue;
+    background: black;
+}
